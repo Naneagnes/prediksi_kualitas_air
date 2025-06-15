@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load('model_rf.pkl')  # Ganti dengan nama file model kamu
+model = joblib.load('model_kualitas_air.pkl')  # Ganti dengan nama file model kamu
 
 # UI
 st.title("Prediksi Kualitas Air Budidaya Ikan")
