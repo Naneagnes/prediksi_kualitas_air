@@ -7,7 +7,7 @@ model = joblib.load('model_rf.pkl')
 scaler = joblib.load('scaler.pkl')
 
 # UI
-st.title("Prediksi Kualitas Air")
+st.title("Prediksi Kualitas Air Untuk Budidaya Ikan Nila")
 st.markdown("Masukkan parameter air untuk memprediksi kualitasnya.")
 
 # Input
