@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 # Load model dan scaler
-model = joblib.load('model_rf_retrain.pkl')
-scaler = joblib.load('scaler_retrain.pkl')
+model = joblib.load('model_rf_streamlit.pkl')
+scaler = joblib.load('scaler_streamlit.pkl')
 
 # UI
 st.title("Prediksi Kualitas Air untuk Budidaya Ikan Nila")
